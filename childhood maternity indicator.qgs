@@ -1,0 +1,1598 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.10.10-A Coruña">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" source="../../Downloads/Maternidad infantil censo - Hoja 5 (1).csv?type=csv&amp;maxFields=10000&amp;detectTypes=no&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="Maternidad_infantil_censo___Hoja_5__1__af5c152c_e772_435d_b857_873a1a2138de" providerKey="delimitedtext" name="Maternidad infantil censo - Hoja 5 (1)" legend_exp="" expanded="1">
+      <customproperties>
+        <property key="legend/title-label" value="Maternidad infantil indígena"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" source="./shape/INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206.shp" id="INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206_50f734c0_7053_4e75_bf69_55a5457fa211" providerKey="ogr" name="INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206" legend_exp="" expanded="1">
+      <customproperties>
+        <property key="legend/label-0" value="1-20"/>
+        <property key="legend/label-1" value="20-40"/>
+        <property key="legend/label-2" value="40-60"/>
+        <property key="legend/label-3" value=">60"/>
+        <property key="legend/title-label" value="Nº de casos"/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206_50f734c0_7053_4e75_bf69_55a5457fa211</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings tolerance="12" type="1" intersection-snapping="0" enabled="0" mode="2" unit="1">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" units="1" type="1" id="INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206_50f734c0_7053_4e75_bf69_55a5457fa211" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-86.8871753616962792</xmin>
+      <ymin>-17.20137525083931251</ymin>
+      <xmax>-59.4722810702499487</xmax>
+      <ymax>0.41509590571272525</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="Maternidad infantil censo - Hoja 5 (1)">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="Maternidad_infantil_censo___Hoja_5__1__af5c152c_e772_435d_b857_873a1a2138de" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206_50f734c0_7053_4e75_bf69_55a5457fa211" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer type="vector" simplifyMaxScale="1" simplifyDrawingHints="1" minScale="1e+08" readOnly="0" simplifyDrawingTol="1" simplifyLocal="1" refreshOnNotifyEnabled="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" autoRefreshTime="0" labelsEnabled="1" simplifyAlgorithm="0" maxScale="0" refreshOnNotifyMessage="" wkbType="MultiPolygon" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-81.32823048994509918</xmin>
+        <ymin>-18.35092773622602635</ymin>
+        <xmax>-68.65227910269841516</xmax>
+        <ymax>-0.0386059689902023</ymax>
+      </extent>
+      <id>INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206_50f734c0_7053_4e75_bf69_55a5457fa211</id>
+      <datasource>./shape/INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxy="0" minz="0" maxz="0" dimensions="2" maxx="0" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins>
+        <join targetFieldName="CCDD" joinFieldName="CCDD" editable="1" memoryCache="1" upsertOnEdit="0" dynamicForm="1" cascadedDelete="0" joinLayerId="Maternidad_infantil_censo___Hoja_5__1__af5c152c_e772_435d_b857_873a1a2138de"/>
+      </vectorjoins>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="categorizedSymbol" enableorderby="0" symbollevels="1" forceraster="0" attr="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia">
+        <categories>
+          <category symbol="0" render="true" value="1" label="1"/>
+          <category symbol="1" render="true" value="2" label="2"/>
+          <category symbol="2" render="true" value="3" label="3"/>
+          <category symbol="3" render="true" value="" label=""/>
+        </categories>
+        <symbols>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="0" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="239,239,239,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="1" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="202,193,245,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="2" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="165,146,250,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="3" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="128,99,255,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="0" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="239,237,241,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop v="239,239,239,255" k="color1"/>
+          <prop v="128,99,255,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+        </colorramp>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="rule-based">
+        <rules key="{5b5b0a39-c874-41ea-bcd2-95ff4e27a773}">
+          <rule key="{aa2fab66-a384-4644-9808-750fdc092823}">
+            <settings calloutType="simple">
+              <text-style fontFamily="Microsoft Yi Baiti" fontWordSpacing="0" textOrientation="horizontal" useSubstitutions="0" textOpacity="1" multilineHeight="1" fontCapitals="0" fontKerning="1" fontItalic="0" fontWeight="50" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textColor="0,0,0,255" fontSizeUnit="Point" fontSize="8" isExpression="1" blendMode="0" namedStyle="Regular" previewBkgrdColor="255,255,255,255" fontUnderline="0" fontLetterSpacing="0" fontStrikeout="0" fieldName="NOMBDEP || '\n' ||  &quot;Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena&quot;">
+                <text-buffer bufferOpacity="1" bufferColor="255,255,255,255" bufferSize="1" bufferSizeUnits="MM" bufferNoFill="1" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferJoinStyle="128"/>
+                <background shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeBorderColor="128,128,128,255" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeOffsetUnit="MM" shapeJoinStyle="64" shapeSizeType="0" shapeBorderWidth="0" shapeRadiiUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeOpacity="1" shapeRotation="0" shapeOffsetX="0" shapeSizeX="0" shapeRadiiX="0" shapeRadiiY="0" shapeSizeY="0" shapeSizeUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeDraw="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="">
+                  <symbol force_rhr="0" type="marker" clip_to_extent="1" name="markerSymbol" alpha="1">
+                    <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+                      <prop v="0" k="angle"/>
+                      <prop v="145,82,45,255" k="color"/>
+                      <prop v="1" k="horizontal_anchor_point"/>
+                      <prop v="bevel" k="joinstyle"/>
+                      <prop v="circle" k="name"/>
+                      <prop v="0,0" k="offset"/>
+                      <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                      <prop v="MM" k="offset_unit"/>
+                      <prop v="35,35,35,255" k="outline_color"/>
+                      <prop v="solid" k="outline_style"/>
+                      <prop v="0" k="outline_width"/>
+                      <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                      <prop v="MM" k="outline_width_unit"/>
+                      <prop v="diameter" k="scale_method"/>
+                      <prop v="2" k="size"/>
+                      <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                      <prop v="MM" k="size_unit"/>
+                      <prop v="1" k="vertical_anchor_point"/>
+                      <data_defined_properties>
+                        <Option type="Map">
+                          <Option type="QString" name="name" value=""/>
+                          <Option name="properties"/>
+                          <Option type="QString" name="type" value="collection"/>
+                        </Option>
+                      </data_defined_properties>
+                    </layer>
+                  </symbol>
+                </background>
+                <shadow shadowOffsetUnit="MM" shadowOffsetDist="1" shadowRadius="1.5" shadowOffsetAngle="135" shadowRadiusAlphaOnly="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetGlobal="1" shadowOpacity="0.7" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowUnder="0" shadowBlendMode="6" shadowScale="100" shadowColor="0,0,0,255"/>
+                <dd_properties>
+                  <Option type="Map">
+                    <Option type="QString" name="name" value=""/>
+                    <Option name="properties"/>
+                    <Option type="QString" name="type" value="collection"/>
+                  </Option>
+                </dd_properties>
+                <substitutions/>
+              </text-style>
+              <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" reverseDirectionSymbol="0" formatNumbers="0" plussign="0" leftDirectionSymbol="&lt;" autoWrapLength="0" useMaxLineLengthForAutoWrap="1" wrapChar="" decimals="3" addDirectionSymbol="0"/>
+              <placement offsetType="0" placementFlags="10" distUnits="MM" quadOffset="4" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" placement="0" distMapUnitScale="3x:0,0,0,0,0,0" layerType="PolygonGeometry" xOffset="0" rotationAngle="0" offsetUnits="MM" overrunDistance="0" centroidWhole="0" overrunDistanceUnit="MM" centroidInside="0" geometryGeneratorEnabled="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" priority="5" geometryGenerator="" dist="0" fitInPolygonOnly="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" repeatDistanceUnits="MM" preserveRotation="1" yOffset="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25"/>
+              <rendering obstacle="1" scaleMin="0" obstacleType="0" drawLabels="1" minFeatureSize="0" limitNumLabels="0" obstacleFactor="1" fontMaxPixelSize="10000" labelPerPart="0" zIndex="0" scaleMax="0" upsidedownLabels="0" scaleVisibility="0" fontMinPixelSize="3" mergeLines="0" displayAll="0" maxNumLabels="2000" fontLimitPixelSize="0"/>
+              <dd_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </dd_properties>
+              <callout type="simple">
+                <Option type="Map">
+                  <Option type="QString" name="anchorPoint" value="pole_of_inaccessibility"/>
+                  <Option type="Map" name="ddProperties">
+                    <Option type="QString" name="name" value=""/>
+                    <Option name="properties"/>
+                    <Option type="QString" name="type" value="collection"/>
+                  </Option>
+                  <Option type="bool" name="drawToAllParts" value="false"/>
+                  <Option type="QString" name="enabled" value="0"/>
+                  <Option type="QString" name="lineSymbol" value="&lt;symbol force_rhr=&quot;0&quot; type=&quot;line&quot; clip_to_extent=&quot;1&quot; name=&quot;symbol&quot; alpha=&quot;1&quot;>&lt;layer class=&quot;SimpleLine&quot; enabled=&quot;1&quot; pass=&quot;0&quot; locked=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; name=&quot;name&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; name=&quot;type&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
+                  <Option type="double" name="minLength" value="0"/>
+                  <Option type="QString" name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="minLengthUnit" value="MM"/>
+                  <Option type="double" name="offsetFromAnchor" value="0"/>
+                  <Option type="QString" name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="offsetFromAnchorUnit" value="MM"/>
+                  <Option type="double" name="offsetFromLabel" value="0"/>
+                  <Option type="QString" name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="offsetFromLabelUnit" value="MM"/>
+                </Option>
+              </callout>
+            </settings>
+          </rule>
+        </rules>
+      </labeling>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NOMBDEP&quot;"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <LinearlyInterpolatedDiagramRenderer lowerWidth="0" classificationAttributeExpression="" lowerHeight="0" upperValue="0" lowerValue="0" upperHeight="5" upperWidth="5" attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory labelPlacementMethod="XHeight" opacity="1" penColor="#000000" barWidth="5" scaleBasedVisibility="0" minScaleDenominator="0" minimumSize="0" enabled="1" lineSizeType="MM" scaleDependency="Area" width="15" height="15" penWidth="0" penAlpha="255" sizeType="MM" backgroundColor="#ffffff" diagramOrientation="Down" maxScaleDenominator="1e+08" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+        <data-defined-size-legend type="separated" title="" valign="bottom">
+          <symbol force_rhr="0" type="marker" clip_to_extent="1" name="source" alpha="1">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="255,0,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <text-style color="0,0,0,255" align="1">
+            <font size="8" family="MS Shell Dlg 2" italic="0" weight="50"/>
+          </text-style>
+        </data-defined-size-legend>
+      </LinearlyInterpolatedDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" dist="0" placement="1" zIndex="0" showAll="1" priority="6" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" name="allowedGapsBuffer" value="0"/>
+            <Option type="bool" name="allowedGapsEnabled" value="false"/>
+            <Option type="QString" name="allowedGapsLayer" value=""/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="OBJECTID_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CCDD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOMBDEP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAPITAL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_STAr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_STLe">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ORIG_FID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CORREO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONTACTO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WHATSAPP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Maternidad total">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID_1" index="0" name=""/>
+        <alias field="OBJECTID" index="1" name=""/>
+        <alias field="CCDD" index="2" name=""/>
+        <alias field="NOMBDEP" index="3" name=""/>
+        <alias field="CAPITAL" index="4" name=""/>
+        <alias field="Shape_STAr" index="5" name=""/>
+        <alias field="Shape_STLe" index="6" name=""/>
+        <alias field="ORIG_FID" index="7" name=""/>
+        <alias field="Shape_Leng" index="8" name=""/>
+        <alias field="Shape_Area" index="9" name=""/>
+        <alias field="CORREO" index="10" name=""/>
+        <alias field="CONTACTO" index="11" name=""/>
+        <alias field="WHATSAPP" index="12" name=""/>
+        <alias field="Maternidad infantil censo - Hoja 5 (1)_Maternidad total" index="13" name=""/>
+        <alias field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil" index="14" name=""/>
+        <alias field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena" index="15" name=""/>
+        <alias field="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion" index="16" name=""/>
+        <alias field="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia" index="17" name=""/>
+        <alias field="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres" index="18" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID_1" expression="" applyOnUpdate="0"/>
+        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
+        <default field="CCDD" expression="" applyOnUpdate="0"/>
+        <default field="NOMBDEP" expression="" applyOnUpdate="0"/>
+        <default field="CAPITAL" expression="" applyOnUpdate="0"/>
+        <default field="Shape_STAr" expression="" applyOnUpdate="0"/>
+        <default field="Shape_STLe" expression="" applyOnUpdate="0"/>
+        <default field="ORIG_FID" expression="" applyOnUpdate="0"/>
+        <default field="Shape_Leng" expression="" applyOnUpdate="0"/>
+        <default field="Shape_Area" expression="" applyOnUpdate="0"/>
+        <default field="CORREO" expression="" applyOnUpdate="0"/>
+        <default field="CONTACTO" expression="" applyOnUpdate="0"/>
+        <default field="WHATSAPP" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil censo - Hoja 5 (1)_Maternidad total" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="OBJECTID_1" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="OBJECTID" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="CCDD" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="NOMBDEP" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="CAPITAL" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Shape_STAr" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Shape_STLe" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="ORIG_FID" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Shape_Leng" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Shape_Area" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="CORREO" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="CONTACTO" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="WHATSAPP" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil censo - Hoja 5 (1)_Maternidad total" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="OBJECTID_1" desc=""/>
+        <constraint exp="" field="OBJECTID" desc=""/>
+        <constraint exp="" field="CCDD" desc=""/>
+        <constraint exp="" field="NOMBDEP" desc=""/>
+        <constraint exp="" field="CAPITAL" desc=""/>
+        <constraint exp="" field="Shape_STAr" desc=""/>
+        <constraint exp="" field="Shape_STLe" desc=""/>
+        <constraint exp="" field="ORIG_FID" desc=""/>
+        <constraint exp="" field="Shape_Leng" desc=""/>
+        <constraint exp="" field="Shape_Area" desc=""/>
+        <constraint exp="" field="CORREO" desc=""/>
+        <constraint exp="" field="CONTACTO" desc=""/>
+        <constraint exp="" field="WHATSAPP" desc=""/>
+        <constraint exp="" field="Maternidad infantil censo - Hoja 5 (1)_Maternidad total" desc=""/>
+        <constraint exp="" field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil" desc=""/>
+        <constraint exp="" field="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena" desc=""/>
+        <constraint exp="" field="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion" desc=""/>
+        <constraint exp="" field="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia" desc=""/>
+        <constraint exp="" field="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;CCDD&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="OBJECTID_1" hidden="0"/>
+          <column type="field" width="-1" name="OBJECTID" hidden="0"/>
+          <column type="field" width="-1" name="CCDD" hidden="0"/>
+          <column type="field" width="-1" name="NOMBDEP" hidden="0"/>
+          <column type="field" width="-1" name="CAPITAL" hidden="0"/>
+          <column type="field" width="-1" name="Shape_STAr" hidden="0"/>
+          <column type="field" width="-1" name="Shape_STLe" hidden="0"/>
+          <column type="field" width="-1" name="ORIG_FID" hidden="0"/>
+          <column type="field" width="-1" name="Shape_Leng" hidden="0"/>
+          <column type="field" width="-1" name="Shape_Area" hidden="0"/>
+          <column type="field" width="-1" name="CORREO" hidden="0"/>
+          <column type="field" width="-1" name="CONTACTO" hidden="0"/>
+          <column type="field" width="-1" name="WHATSAPP" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+          <column type="field" width="-1" name="Maternidad infantil censo - Hoja 5 (1)_Maternidad total" hidden="0"/>
+          <column type="field" width="-1" name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil" hidden="0"/>
+          <column type="field" width="-1" name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena" hidden="0"/>
+          <column type="field" width="-1" name="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion" hidden="0"/>
+          <column type="field" width="-1" name="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia" hidden="0"/>
+          <column type="field" width="-1" name="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres" hidden="0"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CAPITAL"/>
+        <field editable="1" name="CCDD"/>
+        <field editable="1" name="CONTACTO"/>
+        <field editable="1" name="CORREO"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5 (1)_Maternidad total"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5_Maternidad infantil"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5_Maternidad infantil indigena"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5_Maternidad total"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5_Nivel de importancia"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5_Porcentaje de maternidad infantil respecto al total de madres"/>
+        <field editable="0" name="Maternidad infantil censo - Hoja 5_Total de poblacion"/>
+        <field editable="1" name="NOMBDEP"/>
+        <field editable="1" name="OBJECTID"/>
+        <field editable="1" name="OBJECTID_1"/>
+        <field editable="1" name="ORIG_FID"/>
+        <field editable="1" name="Shape_Area"/>
+        <field editable="1" name="Shape_Leng"/>
+        <field editable="1" name="Shape_STAr"/>
+        <field editable="1" name="Shape_STLe"/>
+        <field editable="1" name="WHATSAPP"/>
+      </editable>
+      <labelOnTop>
+        <field name="CAPITAL" labelOnTop="0"/>
+        <field name="CCDD" labelOnTop="0"/>
+        <field name="CONTACTO" labelOnTop="0"/>
+        <field name="CORREO" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Maternidad infantil indigena" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Maternidad total" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Nivel de importancia" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Porcentaje de maternidad infantil respecto al total de madres" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5 (1)_Total de poblacion" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5_Maternidad infantil" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5_Maternidad infantil indigena" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5_Maternidad total" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5_Nivel de importancia" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5_Porcentaje de maternidad infantil respecto al total de madres" labelOnTop="0"/>
+        <field name="Maternidad infantil censo - Hoja 5_Total de poblacion" labelOnTop="0"/>
+        <field name="NOMBDEP" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="OBJECTID_1" labelOnTop="0"/>
+        <field name="ORIG_FID" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="Shape_STAr" labelOnTop="0"/>
+        <field name="Shape_STLe" labelOnTop="0"/>
+        <field name="WHATSAPP" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>"NOMBDEP"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="NoGeometry" refreshOnNotifyMessage="" readOnly="0" autoRefreshEnabled="0" type="vector" minScale="1e+08" styleCategories="AllStyleCategories" geometry="No geometry" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" maxScale="0" refreshOnNotifyEnabled="0">
+      <id>Maternidad_infantil_censo___Hoja_5__1__af5c152c_e772_435d_b857_873a1a2138de</id>
+      <datasource>file:../../Downloads/Maternidad%20infantil%20censo%20-%20Hoja%205%20(1).csv?type=csv&amp;maxFields=10000&amp;detectTypes=no&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Maternidad infantil censo - Hoja 5 (1)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties/>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="CCDD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad total">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Maternidad infantil indigena">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Total de poblacion">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Nivel de importancia">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Porcentaje de maternidad infantil respecto al total de madres">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="CCDD" index="0" name=""/>
+        <alias field="Maternidad total" index="1" name=""/>
+        <alias field="Maternidad infantil" index="2" name=""/>
+        <alias field="Maternidad infantil indigena" index="3" name=""/>
+        <alias field="Total de poblacion" index="4" name=""/>
+        <alias field="Nivel de importancia" index="5" name=""/>
+        <alias field="Porcentaje de maternidad infantil respecto al total de madres" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="CCDD" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad total" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil" expression="" applyOnUpdate="0"/>
+        <default field="Maternidad infantil indigena" expression="" applyOnUpdate="0"/>
+        <default field="Total de poblacion" expression="" applyOnUpdate="0"/>
+        <default field="Nivel de importancia" expression="" applyOnUpdate="0"/>
+        <default field="Porcentaje de maternidad infantil respecto al total de madres" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="CCDD" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad total" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Maternidad infantil indigena" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Total de poblacion" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Nivel de importancia" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="Porcentaje de maternidad infantil respecto al total de madres" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="CCDD" desc=""/>
+        <constraint exp="" field="Maternidad total" desc=""/>
+        <constraint exp="" field="Maternidad infantil" desc=""/>
+        <constraint exp="" field="Maternidad infantil indigena" desc=""/>
+        <constraint exp="" field="Total de poblacion" desc=""/>
+        <constraint exp="" field="Nivel de importancia" desc=""/>
+        <constraint exp="" field="Porcentaje de maternidad infantil respecto al total de madres" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="INEI_LIMITE_DEPARTAMENTAL_GEOGPSPERU_JUANSUYO_931381206_50f734c0_7053_4e75_bf69_55a5457fa211"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Layouts>
+      <lastLayoutExportDir type="QString">C:/Users/surface user/Desktop/CHIRAPAQ_2020/Imagenes y graficos</lastLayoutExportDir>
+    </Layouts>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>surface user</author>
+    <creation>2020-09-27T23:32:53</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts>
+    <Layout units="mm" printResolution="300" name="Leyenda" worldFileMap="{abec4608-3d6b-46e0-ba52-723676a5b101}">
+      <Snapper tolerance="5" snapToGuides="1" snapToItems="1" snapToGrid="0"/>
+      <Grid resolution="14" offsetY="0" resUnits="mm" offsetX="0" offsetUnits="mm"/>
+      <PageCollection>
+        <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+          <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem type="65638" size="297,210,mm" background="true" opacity="1" referencePoint="0" positionOnPage="0,0,mm" uuid="{225d4355-878d-4b2e-8161-f7ce1db907ea}" templateUuid="{225d4355-878d-4b2e-8161-f7ce1db907ea}" positionLock="false" groupUuid="" visibility="1" itemRotation="0" zValue="0" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="0,0,mm" excludeFromExports="0" frameJoinStyle="miter">
+          <FrameColor green="0" red="0" blue="0" alpha="255"/>
+          <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="miter" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem type="65641" size="152.269,8.08229,mm" background="false" opacity="1" referencePoint="0" positionOnPage="87.8674,4.43248,mm" uuid="{88f52f15-4649-42c6-945e-dfa9aaaad5bd}" marginY="0" templateUuid="{88f52f15-4649-42c6-945e-dfa9aaaad5bd}" positionLock="false" groupUuid="" visibility="1" marginX="0" labelText="Maternidad infantil indígena en el Perú, 2017 (casos por región)" itemRotation="0" valign="32" zValue="5" outlineWidthM="0.3,mm" htmlState="0" blendMode="0" frame="false" id="" position="87.8674,4.43248,mm" excludeFromExports="0" halign="4" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor green="0" red="0" blue="0" alpha="255"/>
+      </LayoutItem>
+      <LayoutItem background="true" positionOnPage="86.8706,167.243,mm" groupUuid="" columnCount="1" symbolAlignment="1" rasterBorderWidth="0" referencePoint="0" templateUuid="{3478c932-5fa4-4323-9d94-f72d674532e5}" splitLayer="0" title="" rasterBorderColor="0,0,0,255" lineSpacing="1" wmsLegendWidth="50" id="" visibility="1" rasterBorder="1" fontColor="#000000" boxSpace="2" zValue="4" wrapChar="" position="86.8706,167.243,mm" resizeToContents="1" itemRotation="0" positionLock="false" blendMode="0" uuid="{3478c932-5fa4-4323-9d94-f72d674532e5}" frameJoinStyle="miter" type="65642" opacity="1" outlineWidthM="0.3,mm" size="55.3,51.4,mm" wmsLegendHeight="25" excludeFromExports="0" titleAlignment="1" columnSpace="2" equalColumnWidth="0" symbolHeight="4" symbolWidth="7" legendFilterByAtlas="0" frame="false">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <styles>
+          <style alignment="1" marginBottom="3.5" name="title">
+            <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="3" alignment="1" name="group">
+            <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="3" alignment="1" name="subgroup">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2.5" alignment="1" name="symbol">
+            <styleFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" alignment="1" name="symbolLabel" marginLeft="2">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+      </LayoutItem>
+      <LayoutItem type="65639" labelMargin="0,mm" mapFlags="0" size="314.185,382.237,mm" background="true" opacity="1" referencePoint="0" positionOnPage="25.2912,-79.2632,mm" uuid="{abec4608-3d6b-46e0-ba52-723676a5b101}" keepLayerSet="false" followPreset="false" templateUuid="{abec4608-3d6b-46e0-ba52-723676a5b101}" positionLock="false" groupUuid="" visibility="1" followPresetName="" itemRotation="0" mapRotation="0" drawCanvasItems="true" zValue="3" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="25.2912,-79.2632,mm" excludeFromExports="0" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent ymin="-27.53220036682330729" ymax="9.15598098951388906" xmin="-87.83631746552941877" xmax="-57.67993374493847369"/>
+        <LayerSet/>
+        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+        <labelBlockingItems/>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+        <property key="imageAntialias" value="true"/>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+      <Atlas coverageLayer="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="0" pageNameExpression="" sortFeatures="0" filterFeatures="0"/>
+    </Layout>
+    <Layout units="mm" printResolution="300" name="maternidad infantil" worldFileMap="{a26e531d-03c1-4d66-bdf7-7d5b8fe1d70d}">
+      <Snapper tolerance="5" snapToGuides="1" snapToItems="1" snapToGrid="0"/>
+      <Grid resolution="10" offsetY="0" resUnits="mm" offsetX="0" offsetUnits="mm"/>
+      <PageCollection>
+        <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+          <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem type="65638" size="297,210,mm" background="true" opacity="1" referencePoint="0" positionOnPage="0,0,mm" uuid="{14c07f11-cfe0-4a0b-8668-a7b56402e456}" templateUuid="{14c07f11-cfe0-4a0b-8668-a7b56402e456}" positionLock="false" groupUuid="" visibility="1" itemRotation="0" zValue="0" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="0,0,mm" excludeFromExports="0" frameJoinStyle="miter">
+          <FrameColor green="0" red="0" blue="0" alpha="255"/>
+          <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="miter" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem type="65641" size="145.795,5.92664,mm" background="false" opacity="1" referencePoint="0" positionOnPage="75.6023,17.1873,mm" uuid="{46edd23e-f8a1-4fca-9015-4e587335dfea}" marginY="0" templateUuid="{46edd23e-f8a1-4fca-9015-4e587335dfea}" positionLock="false" groupUuid="" visibility="1" marginX="0" labelText="Maternidad Infantil Indígena en el Perú (casos por región, 2017)" itemRotation="0" valign="32" zValue="3" outlineWidthM="0.3,mm" htmlState="0" blendMode="0" frame="false" id="" position="75.6023,17.1873,mm" excludeFromExports="0" halign="4" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor green="0" red="0" blue="0" alpha="255"/>
+      </LayoutItem>
+      <LayoutItem background="true" positionOnPage="83.5657,165.946,mm" groupUuid="" columnCount="1" symbolAlignment="1" rasterBorderWidth="0" referencePoint="0" templateUuid="{e3fa27ad-f05c-46f3-b208-7f466388983d}" splitLayer="0" title="" rasterBorderColor="0,0,0,255" lineSpacing="1" wmsLegendWidth="50" id="" map_uuid="{a26e531d-03c1-4d66-bdf7-7d5b8fe1d70d}" visibility="1" rasterBorder="1" fontColor="#000000" boxSpace="2" zValue="2" wrapChar="" position="83.5657,165.946,mm" resizeToContents="1" itemRotation="0" positionLock="false" blendMode="0" uuid="{e3fa27ad-f05c-46f3-b208-7f466388983d}" frameJoinStyle="miter" type="65642" opacity="1" outlineWidthM="0.3,mm" size="55.3,51.4,mm" wmsLegendHeight="25" excludeFromExports="0" titleAlignment="1" columnSpace="2" equalColumnWidth="0" symbolHeight="4" symbolWidth="7" legendFilterByAtlas="0" frame="false">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <styles>
+          <style alignment="1" marginBottom="3.5" name="title">
+            <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="3" alignment="1" name="group">
+            <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="3" alignment="1" name="subgroup">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2.5" alignment="1" name="symbol">
+            <styleFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" alignment="1" name="symbolLabel" marginLeft="2">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+      </LayoutItem>
+      <LayoutItem type="65639" labelMargin="0,mm" mapFlags="0" size="264.7,334.856,mm" background="true" opacity="1" referencePoint="0" positionOnPage="32.3002,-61.3408,mm" uuid="{a26e531d-03c1-4d66-bdf7-7d5b8fe1d70d}" keepLayerSet="false" followPreset="false" templateUuid="{a26e531d-03c1-4d66-bdf7-7d5b8fe1d70d}" positionLock="false" groupUuid="" visibility="1" followPresetName="" itemRotation="0" mapRotation="0" drawCanvasItems="true" zValue="1" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="32.3002,-61.3408,mm" excludeFromExports="0" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent ymin="-25.73358236854972603" ymax="8.94730302342313877" xmin="-86.8871753616962792" xmax="-59.4722810702499487"/>
+        <LayerSet/>
+        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+        <labelBlockingItems/>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+        <property key="imageAntialias" value="true"/>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+      <Atlas coverageLayer="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="0" pageNameExpression="" sortFeatures="0" filterFeatures="0"/>
+    </Layout>
+    <Layout units="mm" printResolution="300" name="matinf" worldFileMap="">
+      <Snapper tolerance="5" snapToGuides="1" snapToItems="1" snapToGrid="0"/>
+      <Grid resolution="10" offsetY="0" resUnits="mm" offsetX="0" offsetUnits="mm"/>
+      <PageCollection>
+        <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+          <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem type="65638" size="297,210,mm" background="true" opacity="1" referencePoint="0" positionOnPage="0,0,mm" uuid="{d8d8d0f0-8e20-4a22-a6a9-d08a20b00530}" templateUuid="{d8d8d0f0-8e20-4a22-a6a9-d08a20b00530}" positionLock="false" groupUuid="" visibility="1" itemRotation="0" zValue="0" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="0,0,mm" excludeFromExports="0" frameJoinStyle="miter">
+          <FrameColor green="0" red="0" blue="0" alpha="255"/>
+          <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="miter" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+      </customproperties>
+      <Atlas coverageLayer="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="0" pageNameExpression="" sortFeatures="0" filterFeatures="0"/>
+    </Layout>
+    <Layout units="mm" printResolution="300" name="nina" worldFileMap="{9182f7b9-b06b-42b0-b3f6-15fab1e8db05}">
+      <Snapper tolerance="5" snapToGuides="1" snapToItems="1" snapToGrid="0"/>
+      <Grid resolution="10" offsetY="0" resUnits="mm" offsetX="0" offsetUnits="mm"/>
+      <PageCollection>
+        <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+          <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem type="65638" size="297,210,mm" background="true" opacity="1" referencePoint="0" positionOnPage="0,0,mm" uuid="{e19f538e-06a3-4244-9206-f9f846082f16}" templateUuid="{e19f538e-06a3-4244-9206-f9f846082f16}" positionLock="false" groupUuid="" visibility="1" itemRotation="0" zValue="0" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="0,0,mm" excludeFromExports="0" frameJoinStyle="miter">
+          <FrameColor green="0" red="0" blue="0" alpha="255"/>
+          <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="miter" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem type="65641" size="34.7993,6.41316,mm" background="false" opacity="1" referencePoint="0" positionOnPage="85.1805,113.826,mm" uuid="{7593e59a-e64d-4de8-b3cc-5eb7d77f406f}" marginY="0" templateUuid="{7593e59a-e64d-4de8-b3cc-5eb7d77f406f}" positionLock="false" groupUuid="" visibility="1" marginX="0" labelText="570 casos" itemRotation="0" valign="32" zValue="6" outlineWidthM="0.3,mm" htmlState="0" blendMode="0" frame="false" id="" position="85.1805,113.826,mm" excludeFromExports="0" halign="8" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor green="0" red="0" blue="0" alpha="255"/>
+      </LayoutItem>
+      <LayoutItem type="65641" size="149.066,8.31029,mm" background="false" opacity="1" referencePoint="0" positionOnPage="89.6459,8.56999,mm" uuid="{88f90ea1-7221-4a85-adc1-6cc853bca736}" marginY="0" templateUuid="{88f90ea1-7221-4a85-adc1-6cc853bca736}" positionLock="false" groupUuid="" visibility="1" marginX="0" labelText="Casos de maternidad forzada indígena infantil en el Perú (por región, 2017) " itemRotation="0" valign="32" zValue="5" outlineWidthM="0.3,mm" htmlState="0" blendMode="0" frame="false" id="" position="89.6459,8.56999,mm" excludeFromExports="0" halign="4" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor green="0" red="0" blue="0" alpha="255"/>
+      </LayoutItem>
+      <LayoutItem type="65641" size="42.3306,25.71,mm" background="false" opacity="1" referencePoint="0" positionOnPage="85.1805,120.24,mm" uuid="{993e1383-4df4-473e-a375-d2b9b0737afa}" marginY="0" templateUuid="{993e1383-4df4-473e-a375-d2b9b0737afa}" positionLock="false" groupUuid="" visibility="1" marginX="0" labelText="de maternidad forzada infantil indígena de niñas entre 12-14 años" itemRotation="0" valign="32" zValue="4" outlineWidthM="0.3,mm" htmlState="0" blendMode="0" frame="false" id="" position="85.1805,120.24,mm" excludeFromExports="0" halign="8" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor green="0" red="0" blue="0" alpha="255"/>
+      </LayoutItem>
+      <LayoutItem type="65643" size="50.2436,30.3845,mm" background="false" opacity="1" shapeType="1" referencePoint="0" positionOnPage="82.5835,110.89,mm" uuid="{3028e86f-70fa-41eb-b441-ee4ae2cdf91f}" templateUuid="{3028e86f-70fa-41eb-b441-ee4ae2cdf91f}" positionLock="false" groupUuid="" visibility="1" itemRotation="0" cornerRadiusMeasure="0,mm" zValue="3" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="82.5835,110.89,mm" excludeFromExports="0" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <symbol force_rhr="0" type="fill" clip_to_extent="1" name="" alpha="1">
+          <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </LayoutItem>
+      <LayoutItem background="true" positionOnPage="105.177,164.388,mm" groupUuid="" columnCount="1" symbolAlignment="1" rasterBorderWidth="0" referencePoint="0" templateUuid="{9ee105b5-64a7-4c55-b8d9-41841d0363c1}" splitLayer="0" title="" rasterBorderColor="0,0,0,255" lineSpacing="1" wmsLegendWidth="50" id="" map_uuid="{9182f7b9-b06b-42b0-b3f6-15fab1e8db05}" visibility="1" rasterBorder="1" fontColor="#000000" boxSpace="2" zValue="2" wrapChar="" position="105.177,164.388,mm" resizeToContents="1" itemRotation="0" positionLock="false" blendMode="0" uuid="{9ee105b5-64a7-4c55-b8d9-41841d0363c1}" frameJoinStyle="miter" type="65642" opacity="1" outlineWidthM="0.3,mm" size="55.3,51.4,mm" wmsLegendHeight="25" excludeFromExports="0" titleAlignment="1" columnSpace="2" equalColumnWidth="0" symbolHeight="4" symbolWidth="7" legendFilterByAtlas="0" frame="false">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <styles>
+          <style alignment="1" marginBottom="3.5" name="title">
+            <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="3" alignment="1" name="group">
+            <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="3" alignment="1" name="subgroup">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2.5" alignment="1" name="symbol">
+            <styleFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" alignment="1" name="symbolLabel" marginLeft="2">
+            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+      </LayoutItem>
+      <LayoutItem type="65639" labelMargin="0,mm" mapFlags="0" size="273.201,304.105,mm" background="true" opacity="1" referencePoint="0" positionOnPage="59.5751,-51.7302,mm" uuid="{9182f7b9-b06b-42b0-b3f6-15fab1e8db05}" keepLayerSet="false" followPreset="false" templateUuid="{9182f7b9-b06b-42b0-b3f6-15fab1e8db05}" positionLock="false" groupUuid="" visibility="1" followPresetName="" itemRotation="0" mapRotation="0" drawCanvasItems="true" zValue="1" outlineWidthM="0.3,mm" blendMode="0" frame="false" id="" position="59.5751,-51.7302,mm" excludeFromExports="0" frameJoinStyle="miter">
+        <FrameColor green="0" red="0" blue="0" alpha="255"/>
+        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent ymin="-23.65114405245095952" ymax="6.86486470732437226" xmin="-86.8871753616962792" xmax="-59.4722810702499487"/>
+        <LayerSet/>
+        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+        <labelBlockingItems/>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+        <property key="imageAntialias" value="true"/>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+      <Atlas coverageLayer="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="0" pageNameExpression="" sortFeatures="0" filterFeatures="0"/>
+    </Layout>
+  </Layouts>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>
